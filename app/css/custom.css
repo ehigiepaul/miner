@@ -1,0 +1,46 @@
+/* Put your custom styles here */
+
+.blue {
+  background-color: #4874a6;
+margin-bottom: 20px;
+padding: 5px 20px 10px;
+color: #ffffff;
+
+text-transform: uppercase;
+
+font-weight: bold;
+}
+.headers {
+  margin-top: 10px;
+margin-bottom: 15px;
+font-weight: bold;
+}
+.big {
+  font-size: 45px;
+font-weight: bold;
+}
+.remSpace {
+  padding-left: 0;
+padding-right: 0;
+}
+.bold {
+  font-weight: bold;
+text-transform: uppercase;
+}
+.iconBar {
+  margin-bottom: 10px;
+}
+.iconBar img {
+  width: 45px;
+padding-left: 5px;
+padding-right: 5px;
+}
+.black p {
+  color: #ffffff;
+padding-top: 0px;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+.appBar {
+  height: 40px;
+}

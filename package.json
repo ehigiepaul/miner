@@ -1,15 +1,25 @@
 {
-  "name": "code",
+  "name": "miner",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "index.js",
   "dependencies": {
+    "@types/pouchdb": "^6.3.1",
+    "pouchdb": "^6.3.4",
     "request": "^2.83.0"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ehigiepaul/miner.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ehigiepaul/miner/issues"
+  },
+  "homepage": "https://github.com/ehigiepaul/miner#readme"
 }

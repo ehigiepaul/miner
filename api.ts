@@ -1,8 +1,8 @@
-import * as request from 'request';
+import * as request from "request";
 
 export class api {
   protected myvar: NodeJS.Timer;
-  protected apiStats: any;
+  apiStats: any;
   constructor() {
     this.stats();
     setTimeout(() => {
