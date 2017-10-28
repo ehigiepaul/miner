@@ -2,45 +2,70 @@
 
 .blue {
   background-color: #4874a6;
-margin-bottom: 20px;
-padding: 5px 20px 10px;
-color: #ffffff;
+  margin-bottom: 10px;
+  padding: 5px 20px 10px;
+  color: #ffffff;
 
-text-transform: uppercase;
+  text-transform: uppercase;
 
-font-weight: bold;
+  font-weight: bold;
 }
 .headers {
   margin-top: 10px;
-margin-bottom: 15px;
-font-weight: bold;
+  margin-bottom: 15px;
+  font-weight: bold;
 }
 .big {
   font-size: 45px;
-font-weight: bold;
+  font-weight: bold;
 }
 .remSpace {
   padding-left: 0;
-padding-right: 0;
+  padding-right: 0;
 }
 .bold {
   font-weight: bold;
-text-transform: uppercase;
+  text-transform: uppercase;
 }
 .iconBar {
   margin-bottom: 10px;
 }
 .iconBar img {
-  width: 45px;
-padding-left: 5px;
-padding-right: 5px;
+  width: 35px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 .black p {
   color: #ffffff;
-padding-top: 0px;
-margin-top: 0px;
-margin-bottom: 0px;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .appBar {
-  height: 40px;
+  -webkit-app-region: drag;
+  -webkit-user-drag: none;
+}
+body {
+  -webkit-user-drag: auto;
+  user-select: none;
+}
+.sys {
+  font-size: 11px;
+}
+
+@font-face {
+  font-family: "bebas";
+  src: url("../font/BebasNeue.otf");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  font-family: "bebas";
+  font-weight: 100;
 }

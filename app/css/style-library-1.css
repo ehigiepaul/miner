@@ -303,7 +303,7 @@ body
 
 padding: 5px 20px 10px;
 
-margin-bottom: 20px;
+margin-bottom: 10px;
 
 height: 175px;
 }
@@ -978,7 +978,7 @@ ul
 {
     list-style: none;
     position: relative;
-    padding-left: 22px;
+    padding-left: 0px;
 }
 
 ul li,
@@ -986,7 +986,7 @@ ol li
 {
     /*font-family: "Open Sans", Helvetica, Arial, sans-serif;*/
     font-size: 14px;
-    color: #515157;
+    color: #ffffff;
     margin-bottom: 5px;
 
 float: left;

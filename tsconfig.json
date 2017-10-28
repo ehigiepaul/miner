@@ -1,10 +1,9 @@
 {
   "compilerOptions": {
-    "target": "es6",
-    "module": "commonjs",
-    "sourceMap": true,
-    "moduleResolution": "node"
+    "target": "ES5",
+    "watch": true,
+    "outDir": "app/src",
+    "inlineSourceMap": true
   },
-  "include": ["**/*"],
   "exclude": ["node_modules", "**/node_modules/*"]
 }

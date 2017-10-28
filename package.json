@@ -2,20 +2,24 @@
   "name": "miner",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app/src/index.js",
   "dependencies": {
-    "@types/pouchdb": "^6.3.1",
     "pouchdb": "^6.3.4",
-    "request": "^2.83.0"
+    "request-promise": "^4.2.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/node": "^8.0.47",
+    "@types/nw.js": "^0.13.7"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nw ."
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ehigiepaul/miner.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
