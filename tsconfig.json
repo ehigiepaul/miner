@@ -1,9 +1,10 @@
 {
-    "compilerOptions": {
-        "target": "ES5",
-        "watch": true,
-        "outDir": "prod-src",
-        "inlineSourceMap": true
-    },
-    "exclude": ["node_modules", "**/node_modules/*"]
+  "compilerOptions": {
+    "target": "ES5",
+    "watch": true,
+    "outDir": "prod-src",
+    "inlineSourceMap": true,
+    "lib": ["es2015"]
+  },
+  "exclude": ["node_modules", "**/node_modules/*"]
 }
