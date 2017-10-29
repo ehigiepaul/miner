@@ -5,16 +5,14 @@ export class dbMod {
   constructor() {}
 
   async get(val: string) {
-    let data;
     try {
-      let doc = await db.get(val).then(val => {
-        return (data = doc);
-      });
+      let doc = await db.get(val);
+      return doc;
     } catch (error) {
-      console.log(error);
+      console.log("not existing");
     }
     // console.log(data);
-    return data;
+    // return data;
   }
 
   async put(index: string, obj: object) {
@@ -34,7 +32,7 @@ export class dbMod {
 
   async update(index: string, obj: object) {
     try {
-      let doc = await this.get(index);
+      let doc = await db.get(index);
       let value = await Object.create(null);
       value._id = doc._id;
       value._rev = doc._rev;
@@ -52,7 +50,7 @@ export class dbMod {
 // let test = new dbMod();
 
 // let me = {
-//   name: "laryry",
+//   name: "ehigiepaaul",
 //   age: 30,
 //   loc: "nigeria"
 // };

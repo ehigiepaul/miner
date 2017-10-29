@@ -4,7 +4,7 @@
     "watch": true,
     "outDir": "prod-src",
     "inlineSourceMap": true,
-    "lib": ["es2015"]
+    "lib": ["es2015", "dom", "es2015.core", "dom.iterable", "es5"]
   },
   "exclude": ["node_modules", "**/node_modules/*"]
 }
