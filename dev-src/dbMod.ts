@@ -13,7 +13,7 @@ export class dbMod {
     } catch (error) {
       console.log(error);
     }
-    console.log(data);
+    // console.log(data);
     return data;
   }
 
@@ -25,7 +25,7 @@ export class dbMod {
     }
     try {
       let res = await db.put(value);
-      console.log(res);
+      //   console.log(res);
       console.log("document inserted");
     } catch (error) {
       console.log(error);
@@ -34,7 +34,7 @@ export class dbMod {
 
   async update(index: string, obj: object) {
     try {
-      let doc = await db.get(index);
+      let doc = await this.get(index);
       let value = await Object.create(null);
       value._id = doc._id;
       value._rev = doc._rev;
@@ -42,6 +42,7 @@ export class dbMod {
         value[i] = obj[i];
       }
       let res = await db.put(value);
+      console.log("document updated");
     } catch (err) {
       console.log(err);
     }
