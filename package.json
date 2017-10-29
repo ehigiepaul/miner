@@ -1,29 +1,31 @@
 {
-    "name": "miner",
-    "version": "1.0.0",
-    "description": "",
-    "main": "prod-src/index.js",
-    "dependencies": {
-        "pouchdb": "^6.3.4",
-        "request-promise": "^4.2.2"
-    },
-    "devDependencies": {
-        "@types/node": "^8.0.47",
-        "@types/nw.js": "^0.13.7"
-    },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "nw ."
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/ehigiepaul/miner.git"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/ehigiepaul/miner/issues"
-    },
-    "homepage": "https://github.com/ehigiepaul/miner#readme"
+  "name": "miner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "prod-src/index.js",
+  "dependencies": {
+    "pouchdb": "^6.3.4",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.47",
+    "@types/nw.js": "^0.13.7",
+    "@types/pouchdb": "^6.3.1",
+    "@types/request-promise": "^4.1.39"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nw ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ehigiepaul/miner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ehigiepaul/miner/issues"
+  },
+  "homepage": "https://github.com/ehigiepaul/miner#readme"
 }
