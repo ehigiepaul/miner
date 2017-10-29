@@ -1,8 +1,5 @@
 {
   "globalDependencies": {
-    "node": "registry:env/node#6.0.0+20170213133316"
-  },
-  "dependencies": {
-    "request": "registry:npm/request#2.69.0+20160428223725"
+    "request-promise": "registry:dt/request-promise#4.1.0+20161119044246"
   }
 }
