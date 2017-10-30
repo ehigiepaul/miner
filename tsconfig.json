@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "ES5",
+    "target": "es2015",
     "watch": true,
     "outDir": "prod-src",
     "inlineSourceMap": true,

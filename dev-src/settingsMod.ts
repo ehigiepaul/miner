@@ -17,7 +17,7 @@ export class settingsMod {
     this.main();
   }
 
-  async main() {
+  private async main() {
     let d = await db.get("settings");
 
     if (d == null) {
@@ -28,10 +28,12 @@ export class settingsMod {
       console.log("all is ok");
       return (this.setting = d);
     }
+
+    this.pickPool();
   }
 
-  pickPool() {
-    switch (this.setting.rigName) {
+  protected pickPool() {
+    switch (this.setting.miningPool) {
       case "flypool":
         this.poolUrl = "https://api-zcash.flypool.org";
         this.poolInfo = `${this.poolUrl}/networkStats`;
@@ -52,7 +54,7 @@ export class settingsMod {
     }
   }
 
-  async setup() {
+  protected async setup() {
     //   get all the input from form
     let val = Object.create(null);
     val.address = "t1MnfjAGPAACcPqPKx9Nw8R3jNpuDrwpAaw";
