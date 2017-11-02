@@ -1,0 +1,5 @@
+{
+  "globalDependencies": {
+    "request-promise": "registry:dt/request-promise#4.1.0+20161119044246"
+  }
+}
